@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shreya Kuber — Growth Marketer & Analyst</title>
+  <meta name="description" content="Shreya Kuber — Growth Marketer & Analyst at upGrad. Tech background, Sales instinct, Marketing execution." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- ═══════════════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════════════ -->
+  <nav class="nav" id="nav">
+    <a href="#home" class="nav-logo">Shreya<span class="accent">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#freelance">Freelance</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="resume.pdf" download class="nav-cv">Download CV ↓</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="mob-menu" id="mobMenu">
+    <a href="#about"     onclick="closeMob()">About</a>
+    <a href="#projects"  onclick="closeMob()">Projects</a>
+    <a href="#freelance" onclick="closeMob()">Freelance</a>
+    <a href="#contact"   onclick="closeMob()">Contact</a>
+    <a href="resume.pdf" download class="mob-cv">Download CV ↓</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       01 · HERO / PORTFOLIO
+  ═══════════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+
+      <div class="hero-left">
+        <div class="hero-avail">
+          <span class="avail-dot"></span> Available for New Opportunities
+        </div>
+
+        <p class="hero-role">GROWTH MARKETER &amp; ANALYST</p>
+
+        <h1 class="hero-name">
+          Shreya<br/>
+          <em>Kuber.</em>
+        </h1>
+
+        <p class="hero-tagline">
+          Tech brain. Sales instinct.<br/>Marketing execution.
+        </p>
+
+        <p class="hero-desc">
+          I build growth systems — not just run campaigns. At upGrad, I've cut manual workflows from 8 hours to 30 minutes, architected acquisition strategies that consistently beat benchmarks, and owned every stage of the funnel from first touch to enrolment. If it drives growth, I own it.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-light">View My Work</a>
+          <a href="resume.pdf" download class="btn btn-outline">Download CV ↓</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-img-frame">
+          <img src="images/hero.png" alt="Shreya Kuber"
+               onerror="this.parentNode.innerHTML='<div class=\'hero-fallback\'>SK</div>'" />
+          <div class="hero-img-tag">
+            <span class="tag-dot"></span>upGrad · Growth Marketer
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Stats row -->
+    <div class="hero-stats">
+      <div class="hs-item">
+        <span class="hs-num">2<sup>+</sup></span>
+        <span class="hs-label">Years of<br/>Experience</span>
+      </div>
+      <div class="hs-div"></div>
+      <div class="hs-item">
+        <span class="hs-num">12<sup>+</sup></span>
+        <span class="hs-label">Campaigns &<br/>Systems Built</span>
+      </div>
+      <div class="hs-div"></div>
+      <div class="hs-item">
+        <span class="hs-num">Q4</span>
+        <span class="hs-label">Top Performer<br/>2024 · upGrad</span>
+      </div>
+      <div class="hs-div"></div>
+      <div class="hs-item">
+        <span class="hs-num">16<sup>×</sup></span>
+        <span class="hs-label">Faster with<br/>Automation Built</span>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────────────────────────────────
+       TOOLS STATIC STRIP
+  ───────────────────────────────────────────────────── -->
+  <div class="tools-strip">
+    <div class="tools-strip-label">TOOLS & PLATFORMS</div>
+    <div class="tools-strip-grid">
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"/></svg>
+        </div>
+        <span>Slack</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.527.099C6.955-.744.942 3.9.099 10.473c-.843 6.572 3.8 12.584 10.373 13.428 6.573.843 12.587-3.801 13.428-10.374C24.744 6.955 20.101.943 13.527.099zm2.471 7.485a.855.855 0 0 1 .796-.543c.362 0 .692.215.848.563.155.348.089.755-.168 1.03l-5.527 5.995-5.278-5.69a.853.853 0 0 1 .03-1.207.853.853 0 0 1 1.207.03l4.062 4.383z"/></svg>
+        </div>
+        <span>GA4</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 4a8 8 0 1 1 0 16A8 8 0 0 1 12 4zm-.5 3.5v5.25l4.5 2.625-.75 1.25-5.25-3V7.5h1.5z"/></svg>
+        </div>
+        <span>AiSensy</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 2v.01L12 13 20 6.01V6H4zm0 12h16V8.99l-8 6.99-8-6.99V18z"/></svg>
+        </div>
+        <span>Brevo</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+        </div>
+        <span>RML</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span>Make</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.16 2.03C6.57 1.54 1.54 6.57 2.03 12.16 2.48 17.24 6.76 21.52 11.84 21.97c5.59.49 10.62-4.54 10.13-10.13-.45-5.08-4.73-9.36-9.81-9.81zm-1.09 14.9l-3.64-3.64 1.41-1.41 2.23 2.23 4.95-4.95 1.41 1.41-6.36 6.36z"/></svg>
+        </div>
+        <span>Zapier</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+        </div>
+        <span>LeadSquared</span>
+      </div>
+
+      <div class="ts-item">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v4H6zm4 4h4V4h4v4h-4v4h4v4h-4v4h-4v-4H6v-4h4zm0 0v4H6V8h4zM6 16h4v4H6z"/></svg>
+        </div>
+        <span>Google Workspace</span>
+      </div>
+
+      <div class="ts-item ts-item-accent">
+        <div class="ts-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.93V15a1 1 0 0 0-2 0v1.93A7 7 0 0 1 5.07 11H7a1 1 0 0 0 0-2H5.07A7 7 0 0 1 11 3.07V5a1 1 0 0 0 2 0V3.07A7 7 0 0 1 18.93 9H17a1 1 0 0 0 0 2h1.93A7 7 0 0 1 13 16.93z"/></svg>
+        </div>
+        <span>AI Tools</span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════════════════════
+       02 · ABOUT ME
+  ═══════════════════════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+
+      <div class="sec-header">
+        <span class="sec-num">01</span>
+        <h2 class="sec-title">ABOUT ME</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-img-col">
+          <div class="about-img-wrap">
+            <img src="images/about.png" alt="Shreya Kuber" class="about-photo"
+                 onerror="this.outerHTML='<div class=\'about-fallback\'>SK</div>'" />
+          </div>
+          <!-- Quick ID tags -->
+          <div class="about-ids">
+            <div class="id-tag">📍 Bangalore, India</div>
+            <div class="id-tag">🎓 B.Tech ECE · 2024</div>
+            <div class="id-tag">📜 PG Diploma · Data Science & AI · IIIT-B</div>
+          </div>
+        </div>
+
+        <div class="about-text-col">
+          <p class="about-intro">
+            I create systems that grow businesses — <strong>strategy, automation, and analytics</strong> working as one compound machine.
+          </p>
+          <p class="about-body">
+            I went deep into direct sales at upGrad — not just to hit targets, but to understand exactly how customers think, decide, and commit. That obsession with the buyer's mind made me <strong>Q4 2024 Top Performer</strong>, and it permanently shaped how I approach every campaign and funnel I touch today.
+          </p>
+          <p class="about-body">
+            As a Growth Marketer & Analyst, I've built automation systems that cut manual work from <strong>8 hours to under 30 minutes</strong>, developed my own customer acquisition strategies that bring in leads at benchmarks competitors struggle to match, and designed full user journeys from scratch. I hold a <strong>PG Diploma in Data Science & AI from IIIT Bangalore</strong> — which means I don't just read dashboards, I build them and know exactly what every number is telling us.
+          </p>
+          <p class="about-body">
+            I don't clock in and execute tasks — I <em>own</em> what I work on. I bring fresh thinking, bring my whole self, and push to grow the brand the same way I grow myself: <strong>with intent, with data, and without shortcuts</strong>.
+          </p>
+
+          <!-- Identity pills -->
+          <div class="about-pills">
+            <span class="pill pill-tech">🔧 Tech Brain</span>
+            <span class="pill pill-sales">🎯 Sales DNA</span>
+            <span class="pill pill-mkt">📈 Marketing Execution</span>
+          </div>
+
+          <!-- Skills grid -->
+          <div class="skills-grid">
+            <div class="skill-col">
+              <div class="skill-col-label">EXPERTISE</div>
+              <ul>
+                <li>Top Funnel Marketing</li>
+                <li>Mid Funnel Marketing</li>
+                <li>Lifecycle Marketing</li>
+                <li>Marketing Automation</li>
+                <li>User Journey Design</li>
+                <li>Campaign Management</li>
+                <li>Marketing Analytics</li>
+                <li>Marketing Ops</li>
+              </ul>
+            </div>
+            <div class="skill-col">
+              <div class="skill-col-label">EDUCATION</div>
+              <ul>
+                <li>B.Tech — ECE</li>
+                <li>Don Bosco Institute</li>
+                <li>Bangalore · 2024</li>
+                <li>—</li>
+                <li>PG Diploma</li>
+                <li>Data Science & AI</li>
+                <li>IIIT Bangalore</li>
+                <li>Certified ✓</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Tools I use -->
+          <div class="tools-block">
+            <div class="skill-col-label">TOOLS I USE</div>
+            <div class="tools-chips-sm">
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="4"/><path d="M8 12h8M12 8v8"/></svg>
+                Slack
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                Google Analytics 4
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                AiSensy
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Brevo
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+                RML
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/></svg>
+                Make (Automation)
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                Zapier
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                LeadSquared
+              </span>
+              <span class="tool-chip">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                Google Workspace
+              </span>
+              <span class="tool-chip tool-chip-accent">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/><circle cx="18" cy="6" r="3"/></svg>
+                AI Tools
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Experience timeline -->
+
+      <div class="exp-block">
+        <div class="exp-label">EXPERIENCE</div>
+        <div class="exp-list">
+          <div class="exp-item active-role">
+            <div class="exp-dot"></div>
+            <div class="exp-info">
+              <div class="exp-role">Growth Marketer & Analyst</div>
+              <div class="exp-co">upGrad <span>· Jun 2025 – Present</span></div>
+              <div class="exp-desc">Architecting mid-funnel automation systems that cut manual ops from 8h to 30 min. Building acquisition strategies that outperform benchmarks. Designing end-to-end user journeys and owning campaign analytics from impression to enrolment across PG programs.</div>
+            </div>
+            <div class="exp-badge">Current</div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-dot"></div>
+            <div class="exp-info">
+              <div class="exp-role">Sales Associate <span class="top-badge">⭐ Top Performer Q4</span></div>
+              <div class="exp-co">upGrad <span>· May 2024 – May 2025</span></div>
+              <div class="exp-desc">Ranked Q4 2024 Top Performer in India's EdTech market. Built proprietary outreach frameworks and objection-handling systems that consistently closed above team average. The buyer psychology from this role now directly informs every campaign strategy I build.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════════════════════
+       03 · WHY ME?
+  ═══════════════════════════════════════════════ -->
+  <section class="whyme" id="why-me">
+    <div class="container">
+
+      <div class="sec-header">
+        <span class="sec-num">02</span>
+        <h2 class="sec-title">WHY ME?</h2>
+      </div>
+
+      <p class="whyme-sub">Most growth marketers can run campaigns or build systems — rarely both. Even fewer have lived on the sales floor long enough to understand why customers actually say yes. That combination is what I bring.</p>
+
+      <div class="whyme-grid">
+
+        <div class="wm-card wm-featured">
+          <div class="wm-num">01</div>
+          <h3>A Stack Most Teams Don't Have in One Person</h3>
+          <p>Technical fluency from a B.Tech in Electronics. Buyer psychology from a year in direct sales as Q4 Top Performer. Analytical rigour from a PG Diploma in Data Science & AI at IIIT Bangalore. And end-to-end marketing ownership that ties all three together. Most teams need three people for what I bring as one.</p>
+        </div>
+
+        <div class="wm-card">
+          <div class="wm-num">02</div>
+          <h3>I Ship Systems, Not Just Ideas</h3>
+          <p>When I join a project, things get built — not planned indefinitely. I architect automation workflows from logic to deployment, design user journeys from real drop-off data, and build reporting frameworks that answer questions leadership actually asks. The result: growth infrastructure that scales beyond the team's bandwidth.</p>
+        </div>
+
+        <div class="wm-card">
+          <div class="wm-num">03</div>
+          <h3>I Find the Leak and Fix It</h3>
+          <p>I don't wait to be directed to the problem. I look at the funnel, find where growth is leaking, build the fix, and ship it. Every channel I've owned has improved — not because I was told to optimise it, but because I treated every metric as a signal and every drop-off as a problem worth solving.</p>
+        </div>
+
+        <div class="wm-card">
+          <div class="wm-num">04</div>
+          <h3>Data as a Decision Engine</h3>
+          <p>A/B test everything. Build dashboards that answer real business questions, not just surface vanity metrics. Connect every campaign action to pipeline impact. With a PG in Data Science & AI, I think in hypotheses, structure experiments properly, and optimise toward what the business actually needs to move — not what looks good in a report.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════════════════════
+       04 · MY PROJECTS
+  ═══════════════════════════════════════════════ -->
+  <section class="projects" id="projects">
+    <div class="container">
+
+      <div class="sec-header">
+        <span class="sec-num">03</span>
+        <h2 class="sec-title">MY PROJECTS</h2>
+      </div>
+
+      <p class="sec-sub">High-impact initiatives across automation, paid performance, lifecycle, and analytics — each tied to a measurable business outcome.</p>
+
+      <div class="proj-grid">
+
+        <!-- P1 – Featured -->
+        <div class="proj-card proj-featured">
+          <div class="proj-top">
+            <span class="proj-tag">Mid Funnel · Automation</span>
+            <span class="proj-year">2025</span>
+          </div>
+          <div class="proj-num-bg">01</div>
+          <h3>Full Mid-Funnel Automation — 8 Hours to 30 Minutes</h3>
+          <p>Architected a 5-stage email + WhatsApp automation system for upGrad's PG programs using Brevo + AiSensy + LeadSquared. Mapped intent signals (webinar sign-ups, brochure downloads, page dwell time, inactivity triggers) to personalised nurture sequences. The workflow that used to take the team 8 hours of manual daily work now runs in under 30 minutes — entirely automated. Leads are scored, segmented, and nurtured without a single manual touch.</p>
+          <div class="proj-metrics">
+            <div class="pm"><span>8h → 30m</span><small>Manual Work Automated</small></div>
+            <div class="pm"><span>34%</span><small>↑ Lead-to-Demo Conversion</small></div>
+            <div class="pm"><span>38%</span><small>Avg Email Open Rate</small></div>
+          </div>
+          <div class="proj-tags">
+            <span>Brevo</span><span>AiSensy</span><span>LeadSquared</span><span>Make</span><span>Zapier</span>
+          </div>
+        </div>
+
+        <!-- P2 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-tag">Lifecycle · Re-engagement</span>
+            <span class="proj-year">2025</span>
+          </div>
+          <div class="proj-num-bg">02</div>
+          <h3>Cold Lead Win-Back Campaign</h3>
+          <p>Identified 90-day+ inactive leads, segmented by program interest and engagement score, and deployed a 4-touch personalised win-back sequence across email and WhatsApp — reactivating pipeline at a fraction of new-lead cost.</p>
+          <div class="proj-metrics">
+            <div class="pm"><span>23%</span><small>Reactivation Rate<br/>(Ind. avg: 8%)</small></div>
+            <div class="pm"><span>₹480</span><small>CPL (vs ₹1,400<br/>new leads)</small></div>
+          </div>
+          <div class="proj-tags">
+            <span>Segmentation</span><span>A/B Testing</span><span>WhatsApp</span><span>Lifecycle</span>
+          </div>
+        </div>
+
+        <!-- P3 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-tag">Paid Campaigns · Top Funnel</span>
+            <span class="proj-year">2024–25</span>
+          </div>
+          <div class="proj-num-bg">03</div>
+          <h3>PG Program Paid Campaign Optimisation</h3>
+          <p>Led performance marketing across Google Search and Meta Ads for upGrad's PG programs. Ran 12+ creative A/B tests, overhauled audience segmentation and landing page alignment — systematically driving down CPL while lifting lead quality and intent score.</p>
+          <div class="proj-metrics">
+            <div class="pm"><span>38%</span><small>↓ CPL in 90 Days</small></div>
+            <div class="pm"><span>2.9%</span><small>CTR (up from 1.1%)</small></div>
+          </div>
+          <div class="proj-tags">
+            <span>Google Ads</span><span>Meta Ads</span><span>A/B Testing</span><span>LPs</span>
+          </div>
+        </div>
+
+        <!-- P4 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-tag">Analytics · Marketing Ops</span>
+            <span class="proj-year">2024–25</span>
+          </div>
+          <div class="proj-num-bg">04</div>
+          <h3>Full-Funnel Analytics & Reporting System</h3>
+          <p>Built a centralised reporting framework tracking every top and mid-funnel campaign from impression to enrolment across channels. Automated weekly KPI reports for leadership — cutting reporting time by 60% and replacing gut-feel decisions with real attribution data. Every campaign now has a clear line of sight to pipeline impact.</p>
+          <div class="proj-metrics">
+            <div class="pm"><span>60%</span><small>↓ Reporting Time</small></div>
+            <div class="pm"><span>Full</span><small>Funnel Visibility<br/>Impression → Enrol</small></div>
+          </div>
+          <div class="proj-tags">
+            <span>Google Analytics 4</span><span>Data Studio</span><span>Excel</span>
+          </div>
+        </div>
+
+        <!-- P5 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-tag">WhatsApp · AiSensy · Broadcasts</span>
+            <span class="proj-year">2025</span>
+          </div>
+          <div class="proj-num-bg">05</div>
+          <h3>AiSensy WhatsApp Broadcast System</h3>
+          <p>Built a structured WhatsApp broadcast architecture on AiSensy for PG program launch campaigns. Created segmented contact lists by program interest, funnel stage, and past engagement. A/B tested message angles — career ROI vs skills gap vs placement outcomes. Replaced generic mass blasts with precise, staged delivery that actually lands.</p>
+          <div class="proj-metrics">
+            <div class="pm"><span>2.8%</span><small>Broadcast CTR<br/>(Industry avg: 0.9%)</small></div>
+            <div class="pm"><span>18%</span><small>↓ Opt-Out Rate<br/>via Better Segmentation</small></div>
+          </div>
+          <div class="proj-tags">
+            <span>AiSensy</span><span>WhatsApp API</span><span>Segmentation</span><span>A/B Testing</span>
+          </div>
+        </div>
+
+        <!-- P6 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-tag">CRM · LeadSquared · Ops</span>
+            <span class="proj-year">2024–25</span>
+          </div>
+          <div class="proj-num-bg">06</div>
+          <h3>LeadSquared Pipeline Automation & Lead Routing</h3>
+          <p>Designed and deployed automated workflow rules in LeadSquared — auto-scoring leads on form fills, email opens, and webinar attendance, then routing them to the right sales rep based on program interest and score tier. Replaced a 2–3 hour daily manual assignment process with a fully automated pipeline. Lead response time dropped from 4+ hours to under 15 minutes.</p>
+          <div class="proj-metrics">
+            <div class="pm"><span>15 min</span><small>Lead Response Time<br/>(was 4+ hours)</small></div>
+            <div class="pm"><span>100%</span><small>Auto-Routed<br/>Pipeline</small></div>
+          </div>
+          <div class="proj-tags">
+            <span>LeadSquared</span><span>CRM Automation</span><span>Lead Scoring</span><span>Workflows</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════════════════════
+       05 · FREELANCE WORKS
+  ═══════════════════════════════════════════════ -->
+  <section class="freelance" id="freelance">
+    <div class="container">
+
+      <div class="sec-header">
+        <span class="sec-num">04</span>
+        <h2 class="sec-title">FREELANCE WORKS</h2>
+      </div>
+
+      <p class="sec-sub">Outside of upGrad, I take on select freelance projects — bringing the same rigour, creative edge, and ownership I apply to everything I do.</p>
+
+      <div class="fl-grid">
+
+        <!-- Service 1: UGC -->
+        <div class="fl-card fl-featured">
+          <div class="fl-icon">📸</div>
+          <h3>UGC Content Creation</h3>
+          <p>I create high-converting UGC content for brands that need to build trust at scale. Authentic product storytelling, lifestyle integrations, and creator-native content — crafted to feel like a recommendation, not an ad. The kind of content that gets saved, shared, and acted on.</p>
+          <ul class="fl-list">
+            <li>Product review & unboxing videos</li>
+            <li>Lifestyle brand integrations</li>
+            <li>Reels, shorts & story content</li>
+            <li>Brand voice & narrative building</li>
+          </ul>
+          <a href="https://www.instagram.com/storiesofshreya__" target="_blank" class="fl-ig-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            View on Instagram @storiesofshreya__
+          </a>
+        </div>
+
+        <!-- Service 2: Portfolio Website Building -->
+        <div class="fl-card">
+          <div class="fl-icon">💻</div>
+          <h3>Portfolio Website Building</h3>
+          <p>I design and build high-performance portfolio websites — clean, fast, and built to convert attention into opportunities. Custom-coded, mobile-first, and designed to position your work exactly the way it deserves to be seen. No templates. No compromises.</p>
+          <ul class="fl-list">
+            <li>Custom HTML/CSS/JS builds</li>
+            <li>Framer & no-code templates</li>
+            <li>Personal brand + portfolio sites</li>
+            <li>Mobile-first, SEO-ready</li>
+          </ul>
+          <a href="mailto:shreyakuber02@outlook.com?subject=Portfolio Website Enquiry" class="fl-cta">Get a Quote →</a>
+        </div>
+
+        <!-- Service 3: Content Writing -->
+        <div class="fl-card">
+          <div class="fl-icon">✍️</div>
+          <h3>Content Writing</h3>
+          <p>Sharp, purposeful writing that builds brand authority and moves readers to act. From email sequences that nurture leads to long-form content that ranks — every word is written with a specific outcome in mind, backed by an understanding of the funnel it lives in.</p>
+          <ul class="fl-list">
+            <li>Blog posts & SEO articles</li>
+            <li>Email copy & drip sequences</li>
+            <li>Social media captions & scripts</li>
+            <li>Brand messaging & website copy</li>
+          </ul>
+          <a href="mailto:shreyakuber02@outlook.com?subject=Content Writing Enquiry" class="fl-cta">Get a Quote →</a>
+        </div>
+
+      </div>
+
+      <!-- Instagram CTA strip -->
+      <div class="ig-strip">
+        <div class="ig-strip-left">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          <div>
+            <strong>@storiesofshreya__</strong>
+            <small>UGC Content · Brand Collaborations · Creative Reels</small>
+          </div>
+        </div>
+        <a href="https://www.instagram.com/storiesofshreya__" target="_blank" class="btn btn-light">Follow on Instagram →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ═══════════════════════════════════════════════
+       06 · CONTACT
+  ═══════════════════════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+
+      <div class="sec-header">
+        <span class="sec-num">05</span>
+        <h2 class="sec-title">LET'S WORK<br/><em>TOGETHER.</em></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-left">
+          <p class="contact-desc">If you're building a growth function that needs to actually move the needle — or looking for someone who can own it end-to-end — let's talk. I respond within 24 hours.</p>
+          <a href="mailto:shreyakuber02@outlook.com" class="contact-email">shreyakuber02@outlook.com</a>
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/shreyakuberindia/" target="_blank" class="soc-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://www.instagram.com/storiesofshreya__" target="_blank" class="soc-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram
+            </a>
+            <a href="resume.pdf" download class="soc-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 18 15 15"/></svg>
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <!-- ⚙️  FORMSPREE: Replace YOUR_FORM_ID below with your ID from formspree.io -->
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)"
+              data-formspree-id="YOUR_FORM_ID">
+          <div class="cf-row">
+            <div class="cf-field">
+              <label>Name</label>
+              <input type="text" name="name" placeholder="Your name" required />
+            </div>
+            <div class="cf-field">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="cf-field">
+            <label>Subject</label>
+            <input type="text" name="subject" placeholder="What's this about?" />
+          </div>
+          <div class="cf-field">
+            <label>Message</label>
+            <textarea rows="5" name="message" placeholder="Tell me about your project, role, or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-light" id="cfSubmitBtn">Send Message →</button>
+          <div class="cf-ok" id="cfOk">✓ Message sent! I'll get back to you within 24 hours.</div>
+          <div class="cf-err" id="cfErr">✗ Something went wrong. Please email me directly at shreyakuber02@outlook.com</div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">Shreya Kuber<span class="accent">.</span></span>
+        <span class="footer-copy">© 2026 · Growth Marketer & Analyst · Bangalore</span>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#freelance">Freelance</a>
+          <a href="https://www.linkedin.com/in/shreyakuberindia/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
