@@ -1101,6 +1101,19 @@ img { max-width: 100%; display: block; }
 }
 .contact-email:hover { border-color: var(--maroon); color: var(--maroon2); }
 
+.contact-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--muted);
+  margin-bottom: 1.75rem;
+  transition: color 0.2s;
+}
+.contact-phone:hover { color: var(--cream2); }
+
 .contact-socials { display: flex; flex-direction: column; gap: 0.75rem; }
 .soc-link {
   display: inline-flex;
