@@ -810,25 +810,24 @@ img { max-width: 100%; display: block; }
 
 .whyme-grid {
   display: grid;
-  grid-template-columns: 1.6fr 1fr 1fr;
-  grid-template-rows: auto auto;
-  gap: 1.25rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
 .wm-card {
   background: transparent;
   border: 1px solid var(--border);
+  border-top: 2px solid var(--border);
   border-radius: var(--radius);
-  padding: 2.5rem 2.25rem;
+  padding: 2rem 1.75rem;
   transition: border-color 0.3s;
 }
 .wm-card:hover {
   border-color: var(--border2);
+  border-top-color: var(--maroon);
 }
 .wm-featured {
-  grid-row: span 2;
-  border-color: var(--border2);
-  border-top: 2px solid var(--maroon);
+  border-top-color: var(--maroon);
 }
 .wm-featured h3 { color: var(--text); }
 
