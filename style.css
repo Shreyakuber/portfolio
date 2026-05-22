@@ -8,23 +8,23 @@
 
 /* VARIABLES — Minimal Professional */
 :root {
-  --bg:         #070707;
-  --bg2:        #0A0A0A;
-  --bg3:        #0D0D0D;
-  --card:       #0B0B0B;
-  --maroon:     #8B1A1A;
-  --maroon2:    #A52020;
-  --maroon-dim: rgba(139, 26, 26, 0.07);
-  --maroon-glow:rgba(139, 26, 26, 0.10);
-  --cream:      #F6F3EE;
-  --cream2:     #B8B4AE;
-  --silver:     #888580;
-  --text:       #F6F3EE;
-  --muted:      #666360;
-  --muted2:     #333130;
-  --border:     rgba(255, 255, 255, 0.06);
-  --border2:    rgba(255, 255, 255, 0.10);
-  --border-m:   rgba(139, 26, 26, 0.18);
+  --bg:         #161618;
+  --bg2:        #1C1C1F;
+  --bg3:        #202024;
+  --card:       #1E1E21;
+  --maroon:     #C0392B;
+  --maroon2:    #E04030;
+  --maroon-dim: rgba(192, 57, 43, 0.10);
+  --maroon-glow:rgba(192, 57, 43, 0.15);
+  --cream:      #FFFFFF;
+  --cream2:     #E2E0DC;
+  --silver:     #B0AEA9;
+  --text:       #FFFFFF;
+  --muted:      #9E9B96;
+  --muted2:     #5A5855;
+  --border:     rgba(255, 255, 255, 0.09);
+  --border2:    rgba(255, 255, 255, 0.16);
+  --border-m:   rgba(192, 57, 43, 0.25);
   --radius:     6px;
   --radius-lg:  12px;
   --font-head:  'Syne', sans-serif;
@@ -166,7 +166,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   padding: 1.2rem 2.5rem;
-  background: rgba(8,8,8,0.92);
+  background: rgba(22,22,24,0.94);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid transparent;
@@ -464,7 +464,7 @@ img { max-width: 100%; display: block; }
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(8,8,8,0.88);
+  background: rgba(22,22,24,0.90);
   backdrop-filter: blur(12px);
   border: 1px solid var(--border-m);
   border-radius: 4px;
