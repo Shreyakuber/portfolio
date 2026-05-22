@@ -86,8 +86,8 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: flex-end;
   gap: 1.5rem;
-  margin-bottom: 3rem;
-  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
   border-bottom: 1px solid var(--border);
 }
 
@@ -118,7 +118,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.95rem;
   max-width: 580px;
   line-height: 1.8;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 /* ═══════ BUTTONS ═══════ */
@@ -330,20 +330,18 @@ img { max-width: 100%; display: block; }
 
 /* ═══════ HERO ═══════ */
 .hero {
-  min-height: 100vh;
-  padding: 9rem 2.5rem 5rem;
+  padding: 7rem 2.5rem 3.5rem;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .hero-content {
   display: flex;
   align-items: flex-start;
-  gap: 7rem;
-  margin-bottom: 5rem;
+  gap: 4rem;
+  margin-bottom: 3rem;
 }
 
 .hero-left { flex: 1; }
@@ -360,7 +358,7 @@ img { max-width: 100%; display: block; }
   border: 1px solid var(--border);
   border-radius: 3px;
   padding: 0.4rem 0.9rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.75rem;
   background: transparent;
 }
 .avail-dot {
@@ -386,12 +384,12 @@ img { max-width: 100%; display: block; }
 
 .hero-name {
   font-family: var(--font-head);
-  font-size: clamp(4rem, 9vw, 8rem);
+  font-size: clamp(3.5rem, 8vw, 7rem);
   font-weight: 800;
   letter-spacing: -0.04em;
   line-height: 0.9;
   color: var(--text);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 .hero-name em {
   font-style: italic;
@@ -416,7 +414,7 @@ img { max-width: 100%; display: block; }
   color: var(--cream2);
   line-height: 1.8;
   max-width: 480px;
-  margin-bottom: 2.75rem;
+  margin-bottom: 2rem;
   font-weight: 300;
 }
 
@@ -553,12 +551,12 @@ img { max-width: 100%; display: block; }
 }
 
 /* ═══════ ABOUT ═══════ */
-.about { padding: 6rem 0; }
+.about { padding: 4rem 0; }
 
 .about-grid {
   display: grid;
   grid-template-columns: 260px 1fr;
-  gap: 5rem;
+  gap: 3.5rem;
   align-items: start;
 }
 
@@ -797,7 +795,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* ═══════ WHY ME ═══════ */
-.whyme { padding: 6rem 0; }
+.whyme { padding: 4rem 0; }
 
 .whyme-sub {
   font-family: var(--font-head);
@@ -807,7 +805,7 @@ img { max-width: 100%; display: block; }
   color: var(--muted);
   line-height: 1.65;
   max-width: 700px;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 .whyme-grid {
@@ -856,7 +854,7 @@ img { max-width: 100%; display: block; }
 .wm-card p { font-size: 0.875rem; color: var(--muted); line-height: 1.75; }
 
 /* ═══════ PROJECTS ═══════ */
-.projects { padding: 6rem 0; }
+.projects { padding: 4rem 0; }
 
 .proj-grid {
   display: grid;
@@ -961,7 +959,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* ═══════ FREELANCE ═══════ */
-.freelance { padding: 6rem 0; }
+.freelance { padding: 4rem 0; }
 
 .fl-grid {
   display: grid;
@@ -1074,12 +1072,12 @@ img { max-width: 100%; display: block; }
 .ig-strip-left div small { font-size: 0.76rem; color: var(--muted); }
 
 /* ═══════ CONTACT ═══════ */
-.contact { padding: 6rem 0; }
+.contact { padding: 4rem 0; }
 
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  gap: 5rem;
+  gap: 3.5rem;
   align-items: start;
 }
 
